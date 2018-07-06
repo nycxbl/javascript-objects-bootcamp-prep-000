@@ -3,8 +3,8 @@ var playlist = {
   'Pokemon': 'Pokemon Song',
 };
 
-function updatePlaylist(object, key, value){
-  return Object.assign({}, object, { [key]: value })
+function updatePlaylist(list, artist, title) {
+  returnObject.assign({}, list, {[artist]: title});
 }
 
 function removeFromPlaylist(list, artist) {
