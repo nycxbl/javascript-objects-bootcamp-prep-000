@@ -3,10 +3,9 @@ var playlist = {
   'Pokemon': 'Pokemon Song',
 }
 
-function updatePlaylist(playlist, artist, song) {
-  playlist[artist] = song
-
-  return playlist
+function updatePlaylist(list, artist, title) {
+  list[artist] = title;
+  return list
 }
 
 function removeFromPlaylist(playlist, artist) {
