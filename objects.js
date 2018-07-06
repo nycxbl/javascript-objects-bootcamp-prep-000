@@ -1,7 +1,6 @@
 
 var playlist = {
   'Pokemon': 'Pokemon Song',
-  
 }
 
 function updatePlaylist(playlist, artist, song) {
